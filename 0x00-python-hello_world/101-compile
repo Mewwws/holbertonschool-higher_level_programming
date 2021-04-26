@@ -1,0 +1,2 @@
+#!/bin/bash
+python -c "compile('$PYFILE', '$PYFILE' + 'c', exec, flags=0, dont_inherit=False, optimize=-1)"
