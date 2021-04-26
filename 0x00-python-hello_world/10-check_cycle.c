@@ -9,9 +9,9 @@ int check_cycle(listint_t *list)
 	listint_t *check = list;
 	listint_t *checc = list;
 
-	if (check == NULL)
+	if (check == NULL || checc->next == NULL)
 		return (0);
-	while (check && checc->next->next)
+	while (check && check->next)
 	{
 		check = check->next;
 		checc = checc->next->next;
