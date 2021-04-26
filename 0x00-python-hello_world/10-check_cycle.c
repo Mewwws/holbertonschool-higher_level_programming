@@ -7,11 +7,11 @@
 int check_cycle(listint_t *list)
 {
 	listint_t *check = list;
-	listint_t *checc = list->next;
+	listint_t *checc = list;
 
 	if (check == NULL)
 		return (0);
-	while (check->next)
+	while (check->next && checc->next->next)
 	{
 		check = check->next;
 		checc = checc->next->next;
