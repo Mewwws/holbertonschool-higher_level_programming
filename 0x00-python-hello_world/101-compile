@@ -1,2 +1,2 @@
 #!/bin/bash
-python -c "import py_compile; compile('$PYFILE', '$PYFILE' + 'c', 'exec', flags=0)"
+python -c "import py_compile; compile('$PYFILE', '$PYFILE' + 'c', 'exec')"
