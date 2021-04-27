@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 def islower(c):
-    return (c > 96 and c < 123)
+    return (ord(c) > 96 and ord(c) < 123)
