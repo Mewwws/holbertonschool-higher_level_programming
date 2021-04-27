@@ -4,4 +4,6 @@ for i in range(0, 9):
         print(i, j, sep='', end='')
         if i < 8 or j < 9:
             print(", ", end='')
-print()
+        else:
+            print()
+
