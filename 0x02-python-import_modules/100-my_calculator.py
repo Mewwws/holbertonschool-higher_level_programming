@@ -17,3 +17,4 @@ if __name__ == "__main__":
             print("{} {} {} = {}".format(a, s, b, mul(a, b)))
         if s == '/':
             print("{} {} {} = {}".format(a, s, b, div(a, b)))
+        sys.exit(1)
